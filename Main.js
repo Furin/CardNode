@@ -60,7 +60,7 @@ var handleFile = function(uri, req, res) {
 
 var io = require('socket.io').listen(server);
 
-server.listen(5000);
+server.listen(8124);
 
 io.sockets.on('connection', function (socket) {
   socket.on('addCard', function (name, type, cardClass, damage, cost, cast, fn) {
