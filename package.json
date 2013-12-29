@@ -20,6 +20,9 @@
     "jade":">=1.0.1",
     "mongojs":">=0.9.11"
   },
+  "engines": {
+    "node: "0.10.x"
+  },
   "author": "Sander Thomassen",
   "license": "MIT",
   "bugs": {
