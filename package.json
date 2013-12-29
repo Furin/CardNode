@@ -1,0 +1,25 @@
+{
+  "name": "CardNode",
+  "version": "0.0.0",
+  "description": "A card game in node.js.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Furin/CardNode.git"
+  },
+  "keywords": [
+    "Card",
+    "Game",
+    "Node.js",
+    "Node"
+  ],
+  "author": "Sander Thomassen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Furin/CardNode/issues"
+  },
+  "homepage": "https://github.com/Furin/CardNode"
+}
