@@ -1,0 +1,74 @@
+input {
+  clear: left;
+  float: left;
+}
+
+body {
+  margin: 0;
+  font-family: 'Marmelad', sans-serif;
+  font-size: .9em;
+}
+
+#userInterface {
+  margin: 0 auto;
+  background-color: rgb(173,216,230);
+  width: 800px;
+  min-height: 500px;
+}
+
+#userInterface:after { 
+  content: " ";
+  display: block; 
+  height: 0; 
+  clear: both;
+ }
+ 
+#userInterface ul {
+  padding: 0;
+  margin: 0 auto;
+  height: 40px;
+  list-style-type: none;
+}
+ 
+#userInterface li {
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  height: 20px;
+  padding: 10px 0;
+}
+
+.mainMenuItem {
+  background-color: rgb(150,150,150);
+}
+
+.mainMenuItem:hover{
+  background-color: rgb(190,190,190);
+}
+
+.horizontalPanelNav  {
+  width: 95%;
+  font-size: .8em;
+  float: right;
+}
+
+.horizontalPanelNav  li{
+  background-color: rgb(170,170,170);
+}
+
+.horizontalPanelNav li:hover{
+  background-color: rgb(190,190,190);
+}
+ 
+.card {
+  margin: 0 auto;
+  width: 150px;
+  height: 250px;
+  background-color: rgb(225,225,225);
+  border-radius: 15px;
+  background-image:   
+  linear-gradient(rgb(255,215,0) 0, transparent 10%, transparent 90%, rgb(255,215,0) 100%),
+  linear-gradient(90deg, rgb(255,215,0) 0, transparent 15%, transparent 85%, rgb(255,215,0) 100%);
+  background-size: 100%;
+  box-shadow: 10px 5px 5px rgb(100,100,100);
+}
