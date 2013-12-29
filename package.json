@@ -16,6 +16,10 @@
     "node",
     "node.js"
   ],
+  "dependencies" : {
+    "jade":">=1.0.1",
+    "mongojs":">=0.9.11"
+  },
   "author": "Sander Thomassen",
   "license": "MIT",
   "bugs": {
